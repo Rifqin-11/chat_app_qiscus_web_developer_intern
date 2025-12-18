@@ -5,7 +5,7 @@
         "name": "Product A Team",
         "id": 12456,
         "type": "group",
-        "image_url": "https://picsum.photos/id/237/200/300",
+        "image_url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=200&h=200&fit=crop",
         "lastMessage": "Sama-sama! Jika ada pertanyaan lain, silahkan hubungi kami kembali 😊",
         "lastMessageTime": "2025-12-16T18:10:30Z",
         "unreadCount": 0,
@@ -70,8 +70,8 @@
           "sender": "customer@mail.com",
           "timestamp": "2025-12-16T18:03:00Z",
           "media": {
-            "url": "https://picsum.photos/id/1/400/300",
-            "thumbnail": "https://picsum.photos/id/1/200/150",
+            "url": "https://images.unsplash.com/photo-1648823161626-0e839927401b?w=400&h=300&fit=crop",
+            "thumbnail": "https://images.unsplash.com/photo-1648823161626-0e839927401b?w=200&h=150&fit=crop",
             "filename": "bukti_transfer.jpg",
             "size": 245678
           }
@@ -90,8 +90,8 @@
           "sender": "agent@mail.com",
           "timestamp": "2025-12-16T18:05:00Z",
           "media": {
-            "url": "https://picsum.photos/id/20/400/300",
-            "thumbnail": "https://picsum.photos/id/20/200/150",
+            "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop",
+            "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=200&h=150&fit=crop",
             "filename": "product_photo.jpg",
             "size": 189234
           }
@@ -104,7 +104,7 @@
           "timestamp": "2025-12-16T18:06:00Z",
           "media": {
             "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-            "thumbnail": "https://picsum.photos/id/30/400/300",
+            "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop",
             "filename": "tutorial_product.mp4",
             "size": 5242880,
             "duration": 120
@@ -124,8 +124,8 @@
           "sender": "agent@mail.com",
           "timestamp": "2025-12-16T18:09:00Z",
           "media": {
-            "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-            "thumbnail": "https://picsum.photos/id/24/200/150",
+            "url": "https://pdfobject.com/pdf/sample.pdf",
+            "thumbnail": "https://images.unsplash.com/photo-1568667256549-094345857637?w=200&h=150&fit=crop",
             "filename": "product_guide.pdf",
             "size": 1024567,
             "pages": 15
@@ -152,7 +152,7 @@
         "name": "Agent A",
         "id": 12457,
         "type": "single",
-        "image_url": "https://picsum.photos/id/64/200/300",
+        "image_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop",
         "lastMessage": "Baik, saya akan segera proses",
         "lastMessageTime": "2025-12-16T17:45:00Z",
         "unreadCount": 2,
@@ -205,7 +205,7 @@
         "name": "Marketing Team",
         "id": 12458,
         "type": "group",
-        "image_url": "https://picsum.photos/id/338/200/300",
+        "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&h=200&fit=crop",
         "lastMessage": "Meeting pukul 3 sore ya",
         "lastMessageTime": "2025-12-16T16:20:00Z",
         "unreadCount": 5,
@@ -263,7 +263,7 @@
         "name": "Admin",
         "id": 12459,
         "type": "single",
-        "image_url": "https://picsum.photos/id/91/200/300",
+        "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
         "lastMessage": "Terima kasih informasinya",
         "lastMessageTime": "2025-12-16T15:30:00Z",
         "unreadCount": 0,
@@ -309,8 +309,8 @@
           "sender": "admin@mail.com",
           "timestamp": "2025-12-16T15:20:00Z",
           "media": {
-            "url": "https://picsum.photos/id/180/400/300",
-            "thumbnail": "https://picsum.photos/id/180/200/150",
+            "url": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=400&h=300&fit=crop",
+            "thumbnail": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=200&h=150&fit=crop",
             "filename": "promo_december.jpg",
             "size": 156789
           }
@@ -329,7 +329,7 @@
         "name": "Support Team",
         "id": 12460,
         "type": "group",
-        "image_url": "https://picsum.photos/id/119/200/300",
+        "image_url": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=200&h=200&fit=crop",
         "lastMessage": "Siap, akan kami bantu",
         "lastMessageTime": "2025-12-16T14:00:00Z",
         "unreadCount": 0,

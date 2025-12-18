@@ -1,0 +1,372 @@
+{
+  "results": [
+    {
+      "room": {
+        "name": "Product A Team",
+        "id": 12456,
+        "type": "group",
+        "image_url": "https://picsum.photos/id/237/200/300",
+        "lastMessage": "Sama-sama! Jika ada pertanyaan lain, silahkan hubungi kami kembali 😊",
+        "lastMessageTime": "2025-12-16T18:10:30Z",
+        "unreadCount": 0,
+        "participant": [
+          {
+            "id": "admin@mail.com",
+            "name": "Admin",
+            "role": 0
+          },
+          {
+            "id": "agent@mail.com",
+            "name": "Agent A",
+            "role": 1
+          },
+          {
+            "id": "customer@mail.com",
+            "name": "king customer",
+            "role": 2
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": 885512,
+          "type": "text",
+          "message": "Selamat malam",
+          "sender": "customer@mail.com",
+          "timestamp": "2025-12-16T18:00:00Z"
+        },
+        {
+          "id": 885513,
+          "type": "text",
+          "message": "Malam",
+          "sender": "agent@mail.com",
+          "timestamp": "2025-12-16T18:01:00Z"
+        },
+        {
+          "id": 885514,
+          "type": "text",
+          "message": "Ada yang bisa saya bantu?",
+          "sender": "agent@mail.com",
+          "timestamp": "2025-12-16T18:01:30Z"
+        },
+        {
+          "id": 885515,
+          "type": "text",
+          "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal",
+          "sender": "customer@mail.com",
+          "timestamp": "2025-12-16T18:02:00Z"
+        },
+        {
+          "id": 885516,
+          "type": "text",
+          "message": "Baik, silahkan kirimkan lampiran bukti pembayarannya",
+          "sender": "agent@mail.com",
+          "timestamp": "2025-12-16T18:02:30Z"
+        },
+        {
+          "id": 885517,
+          "type": "image",
+          "message": "Bukti transfer",
+          "sender": "customer@mail.com",
+          "timestamp": "2025-12-16T18:03:00Z",
+          "media": {
+            "url": "https://picsum.photos/id/1/400/300",
+            "thumbnail": "https://picsum.photos/id/1/200/150",
+            "filename": "bukti_transfer.jpg",
+            "size": 245678
+          }
+        },
+        {
+          "id": 885518,
+          "type": "text",
+          "message": "Terima kasih, bukti pembayaran sudah kami terima. Mohon tunggu 1x24 jam untuk verifikasi",
+          "sender": "agent@mail.com",
+          "timestamp": "2025-12-16T18:04:00Z"
+        },
+        {
+          "id": 885519,
+          "type": "image",
+          "message": "Ini foto produknya",
+          "sender": "agent@mail.com",
+          "timestamp": "2025-12-16T18:05:00Z",
+          "media": {
+            "url": "https://picsum.photos/id/20/400/300",
+            "thumbnail": "https://picsum.photos/id/20/200/150",
+            "filename": "product_photo.jpg",
+            "size": 189234
+          }
+        },
+        {
+          "id": 885520,
+          "type": "video",
+          "message": "Video tutorial penggunaan produk",
+          "sender": "agent@mail.com",
+          "timestamp": "2025-12-16T18:06:00Z",
+          "media": {
+            "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "thumbnail": "https://picsum.photos/id/30/400/300",
+            "filename": "tutorial_product.mp4",
+            "size": 5242880,
+            "duration": 120
+          }
+        },
+        {
+          "id": 885521,
+          "type": "text",
+          "message": "Wah bagus sekali videonya, sangat membantu",
+          "sender": "customer@mail.com",
+          "timestamp": "2025-12-16T18:08:00Z"
+        },
+        {
+          "id": 885522,
+          "type": "pdf",
+          "message": "Berikut panduan lengkap produk",
+          "sender": "agent@mail.com",
+          "timestamp": "2025-12-16T18:09:00Z",
+          "media": {
+            "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+            "thumbnail": "https://picsum.photos/id/24/200/150",
+            "filename": "product_guide.pdf",
+            "size": 1024567,
+            "pages": 15
+          }
+        },
+        {
+          "id": 885523,
+          "type": "text",
+          "message": "Terima kasih banyak atas bantuannya!",
+          "sender": "customer@mail.com",
+          "timestamp": "2025-12-16T18:10:00Z"
+        },
+        {
+          "id": 885524,
+          "type": "text",
+          "message": "Sama-sama! Jika ada pertanyaan lain, silahkan hubungi kami kembali 😊",
+          "sender": "agent@mail.com",
+          "timestamp": "2025-12-16T18:10:30Z"
+        }
+      ]
+    },
+    {
+      "room": {
+        "name": "Agent A",
+        "id": 12457,
+        "type": "single",
+        "image_url": "https://picsum.photos/id/64/200/300",
+        "lastMessage": "Baik, saya akan segera proses",
+        "lastMessageTime": "2025-12-16T17:45:00Z",
+        "unreadCount": 2,
+        "participant": [
+          {
+            "id": "customer@mail.com",
+            "name": "king customer",
+            "role": 2
+          },
+          {
+            "id": "agent@mail.com",
+            "name": "Agent A",
+            "role": 1
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": 885601,
+          "type": "text",
+          "message": "Halo, saya butuh bantuan",
+          "sender": "customer@mail.com",
+          "timestamp": "2025-12-16T17:30:00Z"
+        },
+        {
+          "id": 885602,
+          "type": "text",
+          "message": "Halo, ada yang bisa saya bantu?",
+          "sender": "agent@mail.com",
+          "timestamp": "2025-12-16T17:31:00Z"
+        },
+        {
+          "id": 885603,
+          "type": "text",
+          "message": "Saya ingin mengubah alamat pengiriman",
+          "sender": "customer@mail.com",
+          "timestamp": "2025-12-16T17:32:00Z"
+        },
+        {
+          "id": 885604,
+          "type": "text",
+          "message": "Baik, saya akan segera proses",
+          "sender": "agent@mail.com",
+          "timestamp": "2025-12-16T17:45:00Z"
+        }
+      ]
+    },
+    {
+      "room": {
+        "name": "Marketing Team",
+        "id": 12458,
+        "type": "group",
+        "image_url": "https://picsum.photos/id/338/200/300",
+        "lastMessage": "Meeting pukul 3 sore ya",
+        "lastMessageTime": "2025-12-16T16:20:00Z",
+        "unreadCount": 5,
+        "participant": [
+          {
+            "id": "customer@mail.com",
+            "name": "king customer",
+            "role": 2
+          },
+          {
+            "id": "marketing1@mail.com",
+            "name": "Marketing Lead",
+            "role": 0
+          },
+          {
+            "id": "marketing2@mail.com",
+            "name": "Marketing Staff",
+            "role": 1
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": 885701,
+          "type": "text",
+          "message": "Selamat siang team",
+          "sender": "marketing1@mail.com",
+          "timestamp": "2025-12-16T16:00:00Z"
+        },
+        {
+          "id": 885702,
+          "type": "text",
+          "message": "Siang",
+          "sender": "customer@mail.com",
+          "timestamp": "2025-12-16T16:05:00Z"
+        },
+        {
+          "id": 885703,
+          "type": "text",
+          "message": "Kita akan meeting untuk membahas campaign baru",
+          "sender": "marketing1@mail.com",
+          "timestamp": "2025-12-16T16:10:00Z"
+        },
+        {
+          "id": 885704,
+          "type": "text",
+          "message": "Meeting pukul 3 sore ya",
+          "sender": "marketing1@mail.com",
+          "timestamp": "2025-12-16T16:20:00Z"
+        }
+      ]
+    },
+    {
+      "room": {
+        "name": "Admin",
+        "id": 12459,
+        "type": "single",
+        "image_url": "https://picsum.photos/id/91/200/300",
+        "lastMessage": "Terima kasih informasinya",
+        "lastMessageTime": "2025-12-16T15:30:00Z",
+        "unreadCount": 0,
+        "participant": [
+          {
+            "id": "customer@mail.com",
+            "name": "king customer",
+            "role": 2
+          },
+          {
+            "id": "admin@mail.com",
+            "name": "Admin",
+            "role": 0
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": 885801,
+          "type": "text",
+          "message": "Halo Admin",
+          "sender": "customer@mail.com",
+          "timestamp": "2025-12-16T15:00:00Z"
+        },
+        {
+          "id": 885802,
+          "type": "text",
+          "message": "Halo, ada yang bisa dibantu?",
+          "sender": "admin@mail.com",
+          "timestamp": "2025-12-16T15:10:00Z"
+        },
+        {
+          "id": 885803,
+          "type": "text",
+          "message": "Saya ingin info tentang promo bulan ini",
+          "sender": "customer@mail.com",
+          "timestamp": "2025-12-16T15:15:00Z"
+        },
+        {
+          "id": 885804,
+          "type": "image",
+          "message": "Ini info promonya",
+          "sender": "admin@mail.com",
+          "timestamp": "2025-12-16T15:20:00Z",
+          "media": {
+            "url": "https://picsum.photos/id/180/400/300",
+            "thumbnail": "https://picsum.photos/id/180/200/150",
+            "filename": "promo_december.jpg",
+            "size": 156789
+          }
+        },
+        {
+          "id": 885805,
+          "type": "text",
+          "message": "Terima kasih informasinya",
+          "sender": "customer@mail.com",
+          "timestamp": "2025-12-16T15:30:00Z"
+        }
+      ]
+    },
+    {
+      "room": {
+        "name": "Support Team",
+        "id": 12460,
+        "type": "group",
+        "image_url": "https://picsum.photos/id/119/200/300",
+        "lastMessage": "Siap, akan kami bantu",
+        "lastMessageTime": "2025-12-16T14:00:00Z",
+        "unreadCount": 0,
+        "participant": [
+          {
+            "id": "customer@mail.com",
+            "name": "king customer",
+            "role": 2
+          },
+          {
+            "id": "support1@mail.com",
+            "name": "Support A",
+            "role": 1
+          },
+          {
+            "id": "support2@mail.com",
+            "name": "Support B",
+            "role": 1
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": 885901,
+          "type": "text",
+          "message": "Mohon bantuan untuk kendala teknis",
+          "sender": "customer@mail.com",
+          "timestamp": "2025-12-16T13:30:00Z"
+        },
+        {
+          "id": 885902,
+          "type": "text",
+          "message": "Siap, akan kami bantu",
+          "sender": "support1@mail.com",
+          "timestamp": "2025-12-16T14:00:00Z"
+        }
+      ]
+    }
+  ]
+}

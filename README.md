@@ -87,6 +87,7 @@ A private chat is represented as a room with **two members**, while a group chat
 ---
 
 ## Project Structure
+```text
 src/
 ├── components/
 │ ├── ChatHeader.jsx
@@ -101,7 +102,7 @@ src/
 │ └── ChatPage.jsx
 ├── App.jsx
 └── main.jsx
-
+```
 
 ---
 

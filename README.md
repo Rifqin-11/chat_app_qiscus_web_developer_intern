@@ -166,10 +166,10 @@ These features are excluded to keep the focus on **frontend UI rendering and dat
 
 ## Screenshots
 
-#### Electricity Cost Calculator
+#### Private Chat
 ![Chat Private](./pictures/Private_Chat.png)
 
-#### Lighting Requirement Calculator
+#### Group Chat
 ![Chat Group](./pictures/Group_Chat.png)
 
 ---

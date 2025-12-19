@@ -143,8 +143,8 @@ These features are excluded to keep the focus on **frontend UI rendering and dat
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pln-calculator.git
-   cd pln-calculator
+   git clone https://github.com/yourusername/chat_app_qiscus_web_developer_intern.git
+   cd chat_app_qiscus_web_developer_intern
    ```
 
 2. Install dependencies:
@@ -159,7 +159,7 @@ These features are excluded to keep the focus on **frontend UI rendering and dat
 
 4. Open your browser and navigate to:
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ---

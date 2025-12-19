@@ -1,73 +1,172 @@
-# React + TypeScript + Vite
+# Chat UI – Frontend Technical Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a **frontend chat application** developed as part of a **Frontend Developer Intern technical assessment**.  
+The application demonstrates how a chat system can support **private and group conversations** and render **multiple message types** using a predefined **dummy JSON response**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The focus of this project is on **UI rendering, component structure, and data handling**, without implementing backend or realtime services.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Objectives
 
-## Expanding the ESLint configuration
+- Build a responsive chat interface for web
+- Render chat conversations using a provided JSON structure
+- Support multiple message types:
+  - Text
+  - Image
+  - Video
+  - PDF/File
+- Demonstrate understanding of chat system architecture and database modeling
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **React** (Vite)
+- **Tailwind CSS**
+- **JavaScript**
+- **Local Dummy JSON**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+No backend API, authentication, or realtime WebSocket implementation is included.
+
+---
+
+## Features
+
+### Chat Interface
+- Three-column layout:
+  - Chat list
+  - Conversation area
+  - Group information panel
+- Chat header displaying room name and participant count
+- Message bubbles with left/right alignment based on sender
+- Fixed message input (text only)
+
+### Supported Message Types
+- **Text messages**
+- **Image messages** (thumbnail preview)
+- **Video messages** (HTML5 video player)
+- **PDF/File messages** (file card with filename and size)
+
+### Group Information Panel
+- Member list with roles
+- Shared images preview
+- Shared files list
+
+---
+
+## System Design
+
+### Chat System Diagram
+The chat system is conceptually designed with the following components:
+- Web Client (React)
+- Chat API Server (REST)
+- Realtime Service (WebSocket)
+- Authentication Service
+- Media Storage
+- Database
+
+This diagram represents **conceptual system architecture only**.  
+No backend services are implemented in this project.
+
+---
+
+### Database Design (ERD)
+
+The database structure supports both **private** and **group** chats using a unified model:
+- **Room**
+- **User**
+- **Room Member**
+- **Message**
+- **Attachment**
+
+A private chat is represented as a room with **two members**, while a group chat contains **more than two members**.
+
+---
+
+## Project Structure
+src/
+├── components/
+│ ├── ChatHeader.jsx
+│ ├── MessageList.jsx
+│ ├── MessageBubble.jsx
+│ ├── MediaMessage.jsx
+│ ├── FileMessage.jsx
+│ └── MessageInput.jsx
+├── data/
+│ └── chat-data.json
+├── pages/
+│ └── ChatPage.jsx
+├── App.jsx
+└── main.jsx
+
+
+---
+
+## Dummy Data
+
+The application uses a local JSON file to represent:
+- Chat rooms (private and group)
+- Participants
+- Messages
+- Media attachments
+
+The data structure is aligned with the ERD and designed to be extensible for additional message types.
+
+---
+
+## Scope & Limitations
+
+The following features are **intentionally out of scope** for this assessment:
+
+- File upload (image/video/PDF)
+- Realtime messaging (WebSocket)
+- Authentication and authorization
+- Message persistence
+- Read receipts and typing indicators
+
+These features are excluded to keep the focus on **frontend UI rendering and data-driven components**, as required by the assessment.
+
+---
+
+## How to Run
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The application will be available at:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+http://localhost:5173
+```
+
+## Screenshots
+
+(Screenshots of the chat interface, media messages, and group information panel can be added here.)
+
+---
+
+## Summary
+
+This project demonstrates:
+
+Frontend UI development using React and Tailwind CSS
+
+Structured rendering of chat conversations from JSON data
+
+Support for multiple message types
+
+Clear separation of concerns through reusable components
+
+Awareness of technical scope and assessment requirements
+
+---
+
+## Author
+
+Rifqi
+Frontend Developer Intern Candidate

@@ -1,5 +1,7 @@
 # Chat UI – Frontend Technical Assessment
 
+![React](https://img.shields.io/badge/React.js-%5E18.0.0-blue?logo=react) ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-%5E3.0-green?logo=tailwind-css) 
+
 ## Overview
 
 This project is a **frontend chat application** developed as part of a **Frontend Developer Intern technical assessment**.  
@@ -58,6 +60,8 @@ No backend API, authentication, or realtime WebSocket implementation is included
 ---
 
 ## System Design
+#### System Diagam
+![System Diagam](./pictures/Chat_Diagram.png)
 
 ### Chat System Diagram
 The chat system is conceptually designed with the following components:
@@ -74,7 +78,8 @@ No backend services are implemented in this project.
 ---
 
 ### Database Design (ERD)
-
+#### Entity Relationship Diagram
+![ERD Diagram](./pictures/Qiscus_ERD.png)
 The database structure supports both **private** and **group** chats using a unified model:
 - **Room**
 - **User**
@@ -134,20 +139,41 @@ These features are excluded to keep the focus on **frontend UI rendering and dat
 
 ## How to Run
 
-```bash
-npm install
-npm run dev
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/pln-calculator.git
+   cd pln-calculator
+   ```
 
-The application will be available at:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```
-http://localhost:5173
-```
+3. Run the development server:
+   ```bash
+   npm start
+   ```
+
+4. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+---
 
 ## Screenshots
 
-(Screenshots of the chat interface, media messages, and group information panel can be added here.)
+#### Electricity Cost Calculator
+![Chat Private](./pictures/Private_Chat.png)
+
+#### Lighting Requirement Calculator
+![Chat Group](./pictures/Group_Chat.png)
+
+---
+
+### Live Demo
+Check out the live project here: [Chat App]([https://pln-calculator.vercel.app/](https://chat-app-qiscus-web-developer-inter.vercel.app/))
 
 ---
 

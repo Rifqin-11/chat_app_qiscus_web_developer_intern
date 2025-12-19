@@ -60,10 +60,11 @@ No backend API, authentication, or realtime WebSocket implementation is included
 ---
 
 ## System Design
+
+### Chat System Diagram
 #### System Diagam
 ![System Diagam](./pictures/Chat_Diagram.png)
 
-### Chat System Diagram
 The chat system is conceptually designed with the following components:
 - Web Client (React)
 - Chat API Server (REST)
@@ -80,6 +81,7 @@ No backend services are implemented in this project.
 ### Database Design (ERD)
 #### Entity Relationship Diagram
 ![ERD Diagram](./pictures/Qiscus_ERD.png)
+
 The database structure supports both **private** and **group** chats using a unified model:
 - **Room**
 - **User**

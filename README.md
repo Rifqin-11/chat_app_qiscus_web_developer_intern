@@ -175,7 +175,7 @@ These features are excluded to keep the focus on **frontend UI rendering and dat
 ---
 
 ### Live Demo
-Check out the live project here: [Chat App]([https://pln-calculator.vercel.app/](https://chat-app-qiscus-web-developer-inter.vercel.app/))
+Check out the live project here: [Chat App](https://chat-app-qiscus-web-developer-inter.vercel.app/)
 
 ---
 
